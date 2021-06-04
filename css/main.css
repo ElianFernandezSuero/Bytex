@@ -447,6 +447,8 @@ legend {
   display: block;
   -webkit-padding-start: 0;
   -webkit-padding-end: 0;
+  justify-content: center;
+  justify-self: center;
 }
 
 * {
@@ -454,7 +456,7 @@ legend {
 }
 
 .s01 {
-  min-height: 100vh;
+  min-height: 90%;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -462,7 +464,8 @@ legend {
   -ms-flex-align: center;
       align-items: center;
   font-family: 'Poppins', sans-serif;
-  background: url("../images/Search_001.png");
+    /* background: url("../images/Search_001.jpg"); */
+    background-color: #506079;
   background-size: cover;
   background-position: center center;
   padding: 15px;
