@@ -33,8 +33,5 @@ function agregarFila(){
     tcol.appendChild(tfilb);
     tcol.id=`col${i}`;
     tbody.appendChild(tcol);
-    btnBorrar.addEventListener("click", () =>{
-       const col = btnBorrar.parentElement;
-       col.parentElement.remove();
-    })
+    
 }
