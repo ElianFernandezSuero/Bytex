@@ -4,22 +4,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="author" content="colorlib.com">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
-    <link href="css/main.css" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <!-- Nucleo Icons -->
+  <link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
+  <link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
+  <!-- Font Awesome Icons -->
+  <link href="./assets/css/font-awesome.css" rel="stylesheet" />
+  <link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
+  <!-- CSS Files -->
+  <link href="./assets/css/argon-design-system.css?v=1.2.2" rel="stylesheet" />
   </head>
   <body>
-    <div class="s01">
+    <div class="container main-container">
       <form>
         <fieldset>
-          <legend>Discover the Amazing City</legend>
-        </fieldset>
-        <div class="inner-form">
-          <div class="input-field first-wrap">
-            <input id="input" type="text" placeholder="What are you looking for?" />
-          </div>
-          <div class="input-field third-wrap">
-            <button class="btn-search" onClick="GuardarDatos()" type="button">Guardar</button>
+        <h1 class="text-center">App</h1>
+      </fieldset>
+        <div class="container">
+          <div class="input-group">
+            <input type="text" id="input" class="form-control" placeholder="Ingresa datos a la tabla">
+            <div class="input-group-append">
+              <button class="btn btn-primary" type="button" onclick="GuardarDatos()">Guardar</button>
+            </div>
           </div>
         </div>
       </form>
@@ -30,9 +37,9 @@
             <table class="table">
                 <thead>
                     <tr>
-                        <th>ID</th>
-                        <th>Nombre</th>
-                        <th>Acciones</th>
+                        <th class="text-center">ID</th>
+                        <th class="text-center">Nombre</th>
+                        <th class="text-center">Acciones</th>
                         
                        
                     </tr>
@@ -44,6 +51,9 @@
             </table>
         </div>
         </div>
+</div>
+
+
      <script src="main.js"></script>       
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
